@@ -1,0 +1,477 @@
+.section__theme-bright {
+    background-color: #1B2944;
+}
+
+.section__theme-dark {
+    background-color: #141f35;
+}
+
+.content__section {
+    padding: 88px 168px;
+}
+
+.content__section-no-indent {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-indent {
+    padding: 40px 168px 0;
+} 
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header__logo {
+    justify-items: start;
+    align-self: center;
+    width: 100px;
+    height: 28px;
+    transition: 0.2s;
+}
+
+.header__logo:hover {
+    border: 1px solid #ffbb01;
+    border-radius: 4px;
+    transform: scale(1.5);
+}
+
+.header__logo-img {
+    width: 100%;
+    height: 100%;
+}
+
+.header__social-menu {
+    align-self: center;
+}
+
+.header__social-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 128px;
+    list-style-type: none;
+}
+
+.header__social-list-item {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    transition: 0.2s;
+}
+
+.header__social-list-item:hover {
+    border: 1px solid #ffbb01;
+    border-radius: 4px;
+    transform: scale(1.5);
+    
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 78px 10px 88px;
+}
+
+.hero__text-description {
+    width: 464px;
+}
+
+.hero__title {
+    color: #ffbb01;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.17;
+}
+
+.hero__text-username {
+    margin-top: 12px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.18;
+}
+
+.hero__text-paragraph {
+    margin-top: 24px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.hero__text-button {
+    width: 300px;
+    height: 66px;
+    margin-top: 36px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 0 0 #b68500;
+    color: #1B2944;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ffbb01;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.hero__text-button:hover {
+	box-shadow: inset 0px 0px 6px 6px #b68500;
+    background: #ffbb01;
+    transform: scale(1.01);
+}
+
+.hero__text-avatar {
+    width: 384px;
+    height: 384px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background-image: url(/images/Keanu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.features {
+    width: 100%;
+}
+
+.features__title {
+    margin-bottom: 48px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.features__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 16px;
+    list-style: none;
+}
+
+.features__list-item {
+    width: 304px;
+    height: 203px;
+}
+
+.card__image {
+    width: 52px;
+    height: 52px;
+}
+
+.card__title {
+    margin: 20px 0 16px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+}
+
+.card__text {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.portfolio__title {
+    margin-bottom: 48px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.portfolio__card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style: none;
+}
+
+.portfolio__card-list-item {
+    position: relative;
+    z-index: 1;
+    align-content: end;
+    width: 304px;
+    height: 304px;
+    border-radius: 6px;
+    padding: 32px 32px;
+    background-position: center;
+    background-size: cover;
+}
+
+.portfolio__card-title {
+    width: 170px;
+    margin-bottom: 16px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.56;
+}
+
+.portfolio__card-chamarel {
+    background-image: url(/images/portfolio1.svg);
+}
+
+.portfolio__card-golf {
+    background-image: url(/images/portfolio2.svg);
+}
+
+.portfolio__card-falls {
+    background-image: url(/images/portfolio3.svg);
+}
+
+.portfolio-button {
+    width: 120px;
+    height: 36px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 2px 0 0 #ce1c3e;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: center;
+    background: #ec1f46;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.portfolio-button:hover {
+    border: 1px solid  #ec1f46;
+    border-radius: 6px;
+    box-shadow: none;
+    background: none;
+    transform: scale(1.05);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #213e60 100%);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style: none;
+}
+
+.gallery-image {
+    width: 224px;
+    height: 224px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.gallery__list-item {
+    position: relative;
+    width: 224px;
+    height: 225px;
+    transition: 0.2s;
+}
+
+.gallery__list-item:hover {
+    transform: scale(1.1);
+}
+
+.gallery-video-time-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 15px;
+    
+}
+
+.gallery-video-time {
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 167%;
+    letter-spacing: 0.03em;
+}
+
+.gallery-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    background: linear-gradient(181deg, rgb(0 0 0) 0%, rgb(255 255 255 / 0%) 24%);
+}
+
+.gallery-video-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.contacts__title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 117%;
+}
+
+.contacts__consultation-and-social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 47px;
+}
+
+.contacts-form {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 464px;
+    height: 422px;
+    border-radius: 5px;
+    padding: 38px 32px;
+    box-shadow: -5px 5px 0 0 #ffc41d;
+    background: #fff;
+}
+
+.contacts-form-title {
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+}
+
+.contacts__input {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contacts__input-text {
+    position: relative;
+    height: 70px;
+}
+
+.contacts__input-style {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 62px;
+    color: #949494;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2.0;
+    background-color: #F8F8F8;
+}
+
+.contacts__input-style:hover {
+    border: 1px solid #ffbb01;
+}
+
+.contacts__input-img {
+    position: absolute;
+    top: 26px;
+    left: 32px;
+    width: 16px;
+    height: 18px;
+}
+
+.contacts-button {
+    width: 100%;
+    height: 66px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 0 0 #b68500;
+    color: #1B2944;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ffbb01;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.contacts-button:hover {
+	box-shadow: inset 0px 0px 6px 6px #b68500;
+    background: #ffbb01;
+    transform: scale(1.01);
+}
+
+.contacts-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 384px;
+}
+
+.contacts-social-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 96px;
+}
+
+.contacts-social-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social-title{
+    display: block;
+    margin-bottom: 16px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 117%;
+}
+
+.text-link-style {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 175%;
+    text-decoration: none;
+}
+
+.text-link-style:hover {
+    color: #ffbb01;
+    transform: scale(1.1);
+}
+
+.contacts-policy {
+    color: #949494;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+}
+
+.contacts-policy:hover {
+    color: #ffbb01;
+}
