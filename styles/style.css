@@ -134,7 +134,7 @@
     height: 384px;
     border: 3px solid #fff;
     border-radius: 50%;
-    background-image: url(/images/Keanu.svg);
+    background-image: url(../images/Keanu.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -221,15 +221,15 @@
 }
 
 .portfolio__card-chamarel {
-    background-image: url(/images/portfolio1.svg);
+    background-image: url(../images/portfolio1.svg);
 }
 
 .portfolio__card-golf {
-    background-image: url(/images/portfolio2.svg);
+    background-image: url(../images/portfolio2.svg);
 }
 
 .portfolio__card-falls {
-    background-image: url(/images/portfolio3.svg);
+    background-image: url(../images/portfolio3.svg);
 }
 
 .portfolio-button {
