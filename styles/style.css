@@ -34,8 +34,8 @@
 }
 
 .header__logo:hover {
-    border: 1px solid #ffbb01;
     border-radius: 4px;
+    outline: 1px solid #ffbb01;
     transform: scale(1.5);
 }
 
@@ -64,10 +64,9 @@
 }
 
 .header__social-list-item:hover {
-    border: 1px solid #ffbb01;
     border-radius: 4px;
-    transform: scale(1.5);
-    
+    outline: 1px solid #ffbb01;
+    transform: scale(1.5);   
 }
 
 .hero {
@@ -250,9 +249,9 @@
 }
 
 .portfolio-button:hover {
-    border: 1px solid  #ec1f46;
     border-radius: 6px;
     box-shadow: none;
+    outline: 1px solid  #ec1f46;
     background: none;
     transform: scale(1.05);
 }
@@ -301,7 +300,6 @@
     align-items: center;
     gap: 5px;
     height: 15px;
-    
 }
 
 .gallery-video-time {
@@ -386,7 +384,7 @@
 }
 
 .contacts__input-style:hover {
-    border: 1px solid #ffbb01;
+    outline: 1px solid #ffbb01;
 }
 
 .contacts__input-img {
